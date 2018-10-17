@@ -1,4 +1,4 @@
-import sum_numbers
+from sum_numbers import add_file_lines
 import pytest
 
 
@@ -7,4 +7,4 @@ import pytest
     ])
 
 def test_sum_numbers(filename,expected):
-    assert sum_numbers.main(filename) == expected
+    assert add_file_lines(filename) == expected
