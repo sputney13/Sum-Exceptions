@@ -22,3 +22,6 @@ def add_file_lines(filename):
             continue
         totalsum += val
     return totalsum
+
+if __name__ == "__main__":
+    main()
